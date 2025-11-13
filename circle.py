@@ -1,16 +1,11 @@
 import math
 
-
 def area(r):
-    '''
-    Принимает число r, возвращает квадрат r, умноженный на число pi 
-    '''
+    if r < 0:
+        raise ValueError("Радиус не может быть отрицательным")
     return math.pi * r * r
 
-
 def perimeter(r):
-    '''
-    Принимает число, возвращает удвоенное произведение r на число pi
-    '''
+    if r < 0:
+        raise ValueError("Радиус не может быть отрицательным")
     return 2 * math.pi * r
-

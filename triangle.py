@@ -1,11 +1,9 @@
-def area(a, h): 
-    '''
-    Принимает числа a и h, возвращает произведение a и h, делённое на 2
-    '''
-    return a * h / 2 
+def area(a, h):
+    if a < 0 or h < 0:
+        raise ValueError("Основание и высота не могут быть отрицательными")
+    return a * h / 2
 
-def perimeter(a, b, c): 
-    '''
-    Принимает числа a, b, c, возвращает сумму a, b и c
-    '''
-    return a + b + c 
+def perimeter(a, b, c):
+    if a < 0 or b < 0 or c < 0:
+        raise ValueError("Стороны не могут быть отрицательными")
+    return a + b + c

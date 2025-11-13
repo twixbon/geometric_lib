@@ -1,11 +1,9 @@
-def area(a, b): 
-    '''
-    Принимает числа a и b, возвращает произведение a на b
-    '''
-    return a * b 
+def area(a, b):
+    if a < 0 or b < 0:
+        raise ValueError("Стороны не могут быть отрицательными")
+    return a * b
 
-def perimeter(a, b): 
-    '''
-    Принимает a и b, возвращает сумму a и b, умноженную на 2
-    '''
+def perimeter(a, b):
+    if a < 0 or b < 0:
+        raise ValueError("Стороны не могут быть отрицательными")
     return (a + b) * 2
