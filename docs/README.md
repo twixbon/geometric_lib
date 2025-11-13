@@ -134,6 +134,3 @@ python.exe -m unittest test_geometric_lib.py -v
 - Написаны комплексные unit-тесты для всех модулей
 ## Commit '8878e31'
 - Обновлена документация
-
-
-dfgsdgf

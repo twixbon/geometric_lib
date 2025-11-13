@@ -31,7 +31,7 @@ class TestGeometricLib(unittest.TestCase):
 
     # ТЕСТЫ ДЛЯ ПРЯМОУГОЛЬНИКА
     def test_rectangle_basic(self):
-        self.assertEqual(rectangle_area(5, 4), 20)
+        self.assertEqual(rectangle_area(5, 4), 30)
         self.assertEqual(rectangle_perimeter(3, 7), 20)
         self.assertEqual(rectangle_area(10, 10), 100) 
     
